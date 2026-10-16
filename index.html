@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eaf7ff">
+  <meta name="description" content="A little sky-blue birthday surprise, made with love for Harini.">
+  <title>For Harini, with love 💙</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="sky" aria-hidden="true">
+    <div class="sky-glow"></div>
+    <div class="stars"></div>
+    <div class="floating-hearts"></div>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="#welcome" aria-label="Return to the beginning">H <span>✦</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#celebration">Celebrate</a>
+      <a href="#memories">Memories</a>
+      <a href="#letter">A little letter</a>
+    </nav>
+    <div class="top-actions">
+      <button class="icon-button music-toggle" type="button" aria-label="Play birthday music" aria-pressed="false">
+        <span class="music-icon" aria-hidden="true">♫</span><span class="music-label">Music</span>
+      </button>
+      <button class="icon-button restart-button" type="button" aria-label="Restart the birthday surprise" title="Start over">↺</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-screen" id="welcome" aria-labelledby="welcome-title">
+      <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="eyebrow-line"></span> A little something, just for you <span class="eyebrow-line"></span></p>
+        <h1 id="welcome-title">Hey Harini! <span class="blue-heart">💙</span></h1>
+        <p class="hero-copy">I have created something special<br class="desktop-break"> just for you...</p>
+        <p class="ready-line">Are you ready for your surprise? <span>✨</span></p>
+        <button class="primary-button open-surprise" type="button">
+          <span>OPEN YOUR SURPRISE</span><span aria-hidden="true">💌</span>
+        </button>
+        <p class="scroll-hint">A little birthday magic awaits <span>↓</span></p>
+      </div>
+      <div class="hero-decor decor-star star-a">✦</div><div class="hero-decor decor-star star-b">✧</div>
+      <div class="hero-decor decor-heart heart-a">♡</div><div class="hero-decor decor-heart heart-b">♡</div>
+      <div class="hero-bottom-glow"></div>
+    </section>
+
+    <section class="celebration section-pad" id="celebration" aria-labelledby="birthday-title">
+      <div class="section-kicker reveal"><span>✦</span> TODAY IS YOUR DAY <span>✦</span></div>
+      <h2 class="display-heading reveal" id="birthday-title">HAPPY BIRTHDAY,<br><span>HARINI!</span> <span class="heading-emoji">🎂💙</span></h2>
+      <p class="section-subtitle reveal">Today is all about you, my dear best friend! <span>♾️</span></p>
+      <div class="party-scene reveal" aria-label="A birthday cake surrounded by balloons">
+        <div class="balloon balloon-left balloon-blue"><span></span></div>
+        <div class="balloon balloon-right balloon-white"><span></span></div>
+        <div class="balloon balloon-small balloon-lilac"><span></span></div>
+        <div class="cake-wrap">
+          <div class="cake-sparkle sparkle-one">✦</div><div class="cake-sparkle sparkle-two">✧</div>
+          <div class="candle"><span class="flame"></span></div>
+          <div class="cake-top"><span class="icing-drip drip-one"></span><span class="icing-drip drip-two"></span><span class="icing-drip drip-three"></span></div>
+          <div class="cake-layer cake-upper"></div><div class="cake-layer cake-lower"></div>
+          <div class="cake-plate"></div>
+          <div class="cake-heart">♡</div>
+        </div>
+        <div class="party-heart party-heart-one">♥</div><div class="party-heart party-heart-two">♡</div>
+      </div>
+      <div class="birthday-note reveal">A whole new year of wonderful things begins with you. <span>✨</span></div>
+    </section>
+
+    <section class="message-section section-pad" id="message" aria-labelledby="message-title">
+      <div class="message-card reveal">
+        <div class="message-sparkle">✧</div>
+        <div class="section-kicker"><span>✦</span> FROM MY HEART <span>✦</span></div>
+        <h2 class="serif-heading" id="message-title">A message for you</h2>
+        <div class="typed-message" aria-live="polite"><span id="typed-text"></span><span class="typing-cursor" aria-hidden="true">|</span></div>
+        <button class="text-button replay-message" type="button">Read it again <span>↻</span></button>
+      </div>
+      <div class="message-side-star" aria-hidden="true">✦</div>
+    </section>
+
+    <section class="memories-section section-pad" id="memories" aria-labelledby="memories-title">
+      <div class="section-kicker reveal"><span>✦</span> LITTLE MOMENTS, BIG FEELINGS <span>✦</span></div>
+      <h2 class="serif-heading reveal" id="memories-title">Our beautiful memories <span>📸</span></h2>
+      <p class="section-subtitle reveal">Every little moment with you deserves its own little frame.</p>
+      <div class="memory-grid" id="memory-grid">
+        <article class="memory-card memory-card-one reveal">
+          <div class="memory-art art-sunset"><span class="art-sun"></span><span class="art-hill hill-one"></span><span class="art-hill hill-two"></span><span class="art-caption">golden hour, golden memories</span></div>
+          <p>Somewhere between the laughs <span>☁️</span></p>
+        </article>
+        <article class="memory-card memory-card-two reveal">
+          <div class="memory-art art-sky"><span class="art-cloud cloud-one"></span><span class="art-cloud cloud-two"></span><span class="art-stars">✦　✧　✦</span><span class="art-caption">our kind of magic</span></div>
+          <p>Ordinary days, extraordinary company <span>💙</span></p>
+        </article>
+        <article class="memory-card memory-card-three reveal">
+          <div class="memory-art art-bloom"><span class="flower">✿</span><span class="flower flower-two">✿</span><span class="art-caption">a friendship in full bloom</span></div>
+          <p>Here's to all the moments still to come <span>🌸</span></p>
+        </article>
+      </div>
+      <label class="upload-button reveal" for="photo-upload"><span aria-hidden="true">＋</span> Add your favorite photos</label>
+      <input id="photo-upload" class="visually-hidden" type="file" accept="image/*" multiple>
+      <p class="upload-hint reveal">Your photos stay right here in your browser. Pick as many as you like.</p>
+    </section>
+
+    <section class="special-section section-pad" id="special" aria-labelledby="special-title">
+      <div class="section-kicker reveal"><span>✦</span> A FEW THINGS I ADORE <span>✦</span></div>
+      <h2 class="serif-heading reveal" id="special-title">Why you are special, Harini <span>🦋</span></h2>
+      <p class="section-subtitle reveal">Tap each little card. There's something from the heart inside.</p>
+      <div class="special-grid">
+        <button class="special-card reveal" type="button" aria-expanded="false"><span class="special-icon">💙</span><span class="special-title">Your Beautiful Smile</span><span class="special-reveal">Your smile has a way of making even an ordinary day feel a little brighter.</span><span class="tap-hint">tap to open ✧</span></button>
+        <button class="special-card reveal" type="button" aria-expanded="false"><span class="special-icon">🌸</span><span class="special-title">Your Kind Heart</span><span class="special-reveal">The care you give so freely is one of the loveliest things about you.</span><span class="tap-hint">tap to open ✧</span></button>
+        <button class="special-card reveal" type="button" aria-expanded="false"><span class="special-icon">✨</span><span class="special-title">Your Wonderful Personality</span><span class="special-reveal">You bring your own kind of sparkle everywhere you go. Never change.</span><span class="tap-hint">tap to open ✧</span></button>
+        <button class="special-card reveal" type="button" aria-expanded="false"><span class="special-icon">🫶</span><span class="special-title">The Happiness You Bring</span><span class="special-reveal">The world feels softer and happier with you in it. I hope you know that.</span><span class="tap-hint">tap to open ✧</span></button>
+        <button class="special-card reveal" type="button" aria-expanded="false"><span class="special-icon">♾️</span><span class="special-title">Our Unforgettable Friendship</span><span class="special-reveal">Every memory we share has a special place in my heart. Here's to many more.</span><span class="tap-hint">tap to open ✧</span></button>
+      </div>
+    </section>
+
+    <section class="letter-section section-pad" id="letter" aria-labelledby="letter-heading">
+      <div class="section-kicker reveal"><span>✦</span> SEALED WITH A LITTLE LOVE <span>✦</span></div>
+      <h2 class="serif-heading reveal" id="letter-heading">A secret letter <span>💌</span></h2>
+      <p class="section-subtitle reveal">Psst... there's a little something tucked inside.</p>
+      <button class="envelope-button reveal" type="button" aria-expanded="false" aria-label="Open the letter for Harini">
+        <span class="envelope-heart">♥</span><span class="envelope-front"><span>A Little Letter for Harini</span></span>
+        <span class="envelope-flap"></span>
+      </button>
+      <p class="envelope-hint reveal">Tap the envelope to open it</p>
+      <div class="letter-paper" aria-hidden="true">
+        <button class="close-letter" type="button" aria-label="Close letter">×</button>
+        <p class="letter-to">My dear Harini,</p>
+        <p>Some friendships feel like finding a little patch of sunshine on a cloudy day. That's what you are to me.</p>
+        <p>Thank you for every laugh, every kind word, and every beautiful memory. I hope this year gives back all the joy you bring to everyone around you.</p>
+        <p>Whatever adventures come next, I'm so glad we're sharing the sky.</p>
+        <p class="letter-signoff">With all my love,<br>Your Dear Best Friend <span>♾️💙</span></p>
+        <div class="letter-hearts" aria-hidden="true">♡　♥　♡</div>
+      </div>
+    </section>
+
+    <section class="wish-section section-pad" id="wish" aria-labelledby="wish-title">
+      <div class="wish-halo"></div>
+      <div class="section-kicker reveal"><span>✦</span> CLOSE YOUR EYES, MAKE A WISH <span>✦</span></div>
+      <h2 class="serif-heading reveal" id="wish-title">Your wish is waiting <span>🌙</span></h2>
+      <div class="wish-cake reveal" aria-label="Birthday cake with glowing candles">
+        <div class="wish-candle candle-one"><span></span></div><div class="wish-candle candle-two"><span></span></div><div class="wish-candle candle-three"><span></span></div>
+        <div class="wish-icing"></div><div class="wish-cake-top"></div><div class="wish-cake-base"></div><div class="wish-plate"></div>
+      </div>
+      <button class="primary-button wish-button reveal" type="button"><span>MAKE A WISH, HARINI!</span><span>✨</span></button>
+      <p class="wish-result" aria-live="polite">May all your dreams come true, Harini! 💙</p>
+    </section>
+
+    <section class="finale section-pad" id="finale" aria-labelledby="final-title">
+      <div class="finale-light light-left"></div><div class="finale-light light-right"></div>
+      <div class="finale-content reveal">
+        <div class="finale-sparkle">✦　✧　✦</div>
+        <p class="finale-quote">Some people make life more beautiful<br> just by being in it...</p>
+        <p class="finale-you">Harini, you are one of those people. <span>💙</span></p>
+        <div class="final-divider"><span></span> ✧ <span></span></div>
+        <h2 id="final-title">HAPPY BIRTHDAY,<br><span>HARINI! 🎂</span></h2>
+        <p class="finale-wish">Keep smiling, keep shining, and always be yourself. <span>✨</span></p>
+        <p class="finale-signoff">With Love, Your Dear Best Friend <span>♾️💙</span></p>
+        <button class="text-button restart-final" type="button">Take me back to the beginning <span>↗</span></button>
+      </div>
+      <div class="finale-floating-heart finale-heart-one">♡</div><div class="finale-floating-heart finale-heart-two">♥</div><div class="finale-floating-heart finale-heart-three">♡</div>
+    </section>
+  </main>
+
+  <footer class="footer"><span>Made with love, just for Harini</span><span>✦ 💙 ✦</span></footer>
+  <div class="confetti-layer" aria-hidden="true"></div>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
